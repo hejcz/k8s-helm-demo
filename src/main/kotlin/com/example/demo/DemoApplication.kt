@@ -39,7 +39,8 @@ class SportEventsQuery {
 	@ResponseStatus(HttpStatus.OK)
 	fun test() = listOf(
 		SportEvent("Man swimming championships", LocalDateTime.now()),
-		SportEvent("Woman swimming championships", LocalDateTime.now())
+		SportEvent("Woman swimming championships", LocalDateTime.now()),
+		SportEvent("Children swimming championships", LocalDateTime.now())
 	)
 }
 
